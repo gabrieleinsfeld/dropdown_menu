@@ -1,0 +1,45 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#header {
+  display: flex;
+  justify-content: flex-end;
+  height: 60px;
+  background-color: beige;
+}
+
+.dropbtn {
+  box-sizing: border-box;
+  height: 100%;
+  width: 130px;
+  padding: 10px 20px;
+  background-color: beige;
+  border: none;
+}
+
+.button_hover {
+  border: solid black 1px;
+}
+
+.dropdown_content {
+  display: flex;
+  /* display: none; */
+  flex-direction: column;
+  width: 130px;
+  background-color: beige;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.close {
+  display: none;
+}

@@ -1,1 +1,3 @@
-console.log("Test");
+import "./style.css";
+import dropdown from "./dropdown";
+dropdown();

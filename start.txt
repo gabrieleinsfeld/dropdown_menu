@@ -6,6 +6,12 @@ npm init
 npm install webpack webpack-cli --save-dev
 *To install webpack to the node_modules directory of your project.
 
+####Run:
+npm install --save-dev html-webpack-plugin
+
+####Run:
+npm install --save-dev style-loader css-loader
+
 
 ####Change:
 Entry in config file
